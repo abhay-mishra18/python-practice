@@ -25,6 +25,27 @@ def factorial(n):
 n=int(input("Enter a number :"))
 print(f"The factorial of {n} is : {factorial(n)}")
 
+# code to find the greatest number among three numbers 
 
+def greatest():
+    if (a>b and a>c):
+        return a 
+    elif(b>c and b>a):
+        return b
+    elif (c>a and c>b):
+        return c 
+    
+a=int(input("Enter a number a : "))
+b=int(input("Enter a number b : "))
+c=int(input("Enter a number c : "))
 
+print(f"the greates number among a,b,c is : {greatest()}")
+
+# program to convert celsius to fahrenheit 
+
+def c_to_f():
+    return c/5 * 9 + 32
+
+c=int(input("Enter temperature in celsius : "))
+print(f"{c} celsius to fahrenheit is : {round(c_to_f(),2)}")
 
